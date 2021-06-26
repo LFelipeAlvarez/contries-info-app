@@ -1,0 +1,21 @@
+.light-theme {
+    --elements: var(--white);
+    --background: var(--very-light-gray);
+    --text: var(--very-dark-blue);
+    --input: var(--dark-gray);
+    --shadow: hsl(0, 0%, 93%);
+    --bg-switcher: url("../assets/img/dark_mode_white_24dp.svg");
+    --bg-drow-down: url("../assets/img/keyboard_arrow_down_black.svg");
+    --bg-back-arrow: url("../assets/img/keyboard_backspace_black.svg");
+}
+
+.dark-theme {
+    --elements: var(--blue);
+    --background: var(--dark-blue);
+    --text: var(--white);
+    --input: var(--blue);
+    --shadow: hsl(207, 26%, 14%);
+    --bg-switcher: url("../assets/img/dark_mode_white.svg");
+    --bg-drow-down: url("../assets/img/keyboard_arrow_down_white.svg");
+    --bg-back-arrow: url("../assets/img/keyboard_backspace_white.svg");
+}
